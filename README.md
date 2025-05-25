@@ -50,3 +50,4 @@ alen@alen:~/alen/pwn/25-6/hitcon_ctf_2019_one_punch$ ldd pwn
 	/home/alen/alen/tools/glibc-all-in-one/libs/2.29-0ubuntu2_amd64/ld-2.29.so => /lib64/ld-linux-x86-64.so.2 (0x0000712ef77d8000)
 
 
+不知道有没有bug，应该能用。菜鸟哭泣。
