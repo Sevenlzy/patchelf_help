@@ -1,6 +1,11 @@
 菜鸡的一键打patch小脚本
 alias pwnhelp='python /home/alen/alen/tools/patch_help/help.py'
 
+alen@alen:~/alen/pwn/25-6/hitcon_ctf_2019_one_punch$ ldd pwn
+	linux-vdso.so.1 (0x00007ffee0680000)
+	/home/alen/alen/tools/glibc-all-in-one/libs/2.31-0ubuntu9.17_amd64/libc-2.31.so (0x000074838b89c000)
+	/home/alen/alen/tools/glibc-all-in-one/libs/2.31-0ubuntu9.17_amd64/ld-2.31.so => /lib64/ld-linux-x86-64.so.2 (0x000074838ba99000)
+
 alen@alen:~/alen/pwn/25-6/hitcon_ctf_2019_one_punch$ pwnhelp
 
 可用 glibc 版本：
